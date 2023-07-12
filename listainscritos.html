@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNC 2023 - INSCRIÇÕES</title>
+    <link rel="stylesheet" type="text/css" href="listainscritos.css">
+    <meta name="referrer" content="origin">
+</head>
+
+<body>
+
+
+
+
+    <div class="container">
+        <div class="navbar">
+            <a href="https://www.exercito.pt/pt/" target="_blank"><img src="icons/icone_exercito.png" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="listainscritos.html">INFORMAÇÕES</a></li>
+                    <li><a href="provas.html">PROVAS</a></li>
+                    <li><a href="erro.html">CLASSIFICAÇÕES</a></li>
+                    <li><a href="erro.html">CONTACTOS</a></li>
+                </ul>
+            </nav>
+            <img src="icons/icone_menu.png" class="icon_menu">
+        </div>
+
+
+        <!-- ------------------------------------------Início dos titulos-------------------------------------------- -->
+        <div>
+            <h1 id="titulo">INCRIÇOES PARA CNC RC6 2023</h1>
+            <p id="subtitulo">Preencha todos os campos</p>
+        </div>
+        <br>
+        <!-- ------------------------------------------Início do formulário------------------------------------------ -->
+        <form class="form" action="https://formsubmit.co/6f08abfadbd3224beed76fdc3620fbd9" method="POST">
+
+            <!-- ---------------------DADOS PESSOAIS ------------------------------------------ -->
+            <fieldset class="grupodados" style="padding-left:10px;padding-right:10px;width:60%">
+
+                <!-- Grupo de Dados Pessoais -->
+                <legend>Dados Pessoais</legend>
+
+                <div><input placeholder="FAP do Cavaleiro" style="width:250px" type="text" id="cavaleiro_FAP" name="cavaleiro_FAP" /></div>
+                <div><input placeholder="NIM" style="width:250px" type="text" id="NIM" name="usuario_nim" required /></div>
+                <div><input placeholder="Telemovel" style="width:250px" type="text" name="cavaleiro_telemovel" required /></div>
+                <div><input placeholder="Nacionalidade" style="width:250px" type="text" name="cavaleiro_nacionaliodade" required /></div>
+                <div><input placeholder="Nome completo" style="width:510px" type="text" id="nome" name="usuario_nome" required /></div>
+                <div><input placeholder="E-Mail" style="width:510px" type="email" id="email" name="cavaleiro_email" required /></div>
+                <div><input placeholder="Unidade a que pretençe" style="width:510px" type="text" id="cavaleiro_UEO" name="cavaleiro_UEO" required /></div>
+                
+                
+                <div><input placeholder="Data de nascimento" style="width:510px" type="date" id="datanasc" name="usuario_data" required /></div>
+
+
+
+
+    <div>
+        <!-- Campo de escolha multipla Postos -->
+        <select id=posto style="width:510px" name="usuario_posto" required>
+            <option value="">"Selecione o posto"</option>
+            <option value="SMor">Sargento-Mor</option>
+            <option value="SCh">Sargento-Chefe</option>
+            <option value="SAj">Sargento-Ajudante</option>
+        </select>
+    </div>
+    <div>
+        <!-- Campo de escolha multipla Ramos -->
+        <select id=ramo style="width:510px" name="usuario_ramo" required>
+            <option value="">"selecione o Ramo"</option>
+            <option value="EP">Exército Português</option>
+            <option value="FAP">Força Aéria Portuguesa</option>
+            <option value="GNR">Gurda Nacional Republicana</option>
+        </select><br><br>
+    </div>
+    
+    </fieldset>
+            <br>
+    <!-- ---------------------DADOS DE PROVAS ------------------------------------------ -->
+    <fieldset class="grupoprovas" style="padding-left:10px;padding-right:10px;width:40%">
+        <!-- Grupo de provas -->
+        <legend>Provas CNC</legend>
+        <div><label for="cnc50cm">CNC 0.50 cm</label><input type="checkbox" id="cnc50cm" name="cnc50cm"></div>
+        <div><label for="cnc60cm">CNC 0.60 cm</label><input type="checkbox" id="cnc60cm" name="cnc60cm"></div>
+        <div><label for="cnc70cm">CNC 0.70 cm</label><input type="checkbox" id="cnc70cm" name="cnc70cm"></div>
+        <div><label for="cnc80cm">CNC 0.80 cm</label><input type="checkbox" id="cnc80cm" name="cnc80cm"></div>
+        <div><label for="cnc90cm">CNC 0.90 cm</label><input type="checkbox" id="cnc90cm" name="cnc90cm"></div>
+        <div><label for="cnc100cm">CNC 100 cm</label><input type="checkbox" id="cnc100cm" name="cnc100cm"></div>
+        <div><label for="cnc110cm">CNC 110 cm</label><input type="checkbox" id="cnc110cm" name="cnc110cm"></div>
+        <div><label for="cnc120cm">CNC 120 cm</label><input type="checkbox" id="cnc120cm" name="cnc120cm"></div>
+        <br>
+    </fieldset>
+
+    <fieldset class="grupoprovas" style="padding-left:10px;padding-right:10px;width:40%">
+        <!-- Grupo de provas -->
+        <legend>Provas Preliminar</legend>
+        <div><label for="cnc50cm">CNC 0.50 cm</label><input type="checkbox" id="cnc50cm" name="cnc50cm"></div>
+        <div><label for="cnc60cm">CNC 0.60 cm</label><input type="checkbox" id="cnc60cm" name="cnc60cm"></div>
+        <div><label for="cnc70cm">CNC 0.70 cm</label><input type="checkbox" id="cnc70cm" name="cnc70cm"></div>
+        <div><label for="cnc80cm">CNC 0.80 cm</label><input type="checkbox" id="cnc80cm" name="cnc80cm"></div>
+        <div><label for="cnc90cm">CNC 0.90 cm</label><input type="checkbox" id="cnc90cm" name="cnc90cm"></div>
+        <div><label for="cnc100cm">CNC 100 cm</label><input type="checkbox" id="cnc100cm" name="cnc100cm"></div>
+        <div><label for="cnc110cm">CNC 110 cm</label><input type="checkbox" id="cnc110cm" name="cnc110cm"></div>
+        <div><label for="cnc120cm">CNC 120 cm</label><input type="checkbox" id="cnc120cm" name="cnc120cm"></div>
+        <br>
+    </fieldset>
+
+
+
+
+    <fieldset class="grupoprovas" style="padding-left:10px;padding-right:10px;width:40%">
+        <legend>Regulamentos</legend>
+        <div>
+            <input type="checkbox" id="acordo" name="acordo" required style="margin-right:10px">
+            <label for="acordo">"Li, entendi, e aceito todos os Regulamentos em vigor para a prova, bem como atesto que todos os dados inserido correspondem à verdade."</label>
+        </div>
+    </fieldset>
+
+    <!-- Botão de submeter formulario -->
+
+    <div class="button">
+        <button type="submit">Submeter inscrição</button>
+    </div>
+
+
+
+
+    </form>
+
+
+    </div>
+
+
+</body>
+</html>
