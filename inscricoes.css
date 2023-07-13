@@ -259,14 +259,18 @@ body{
 }
 
 .gender-category-accept{
-    line-height: 20px;   
+    line-height: 15px;   
     color: white;
-    font-size: 12px;
+    font-size: 11px;
     margin-top: 1px;       
 }
 
-
 .gender-category label{
+    padding: 0 20px 0 5px;
+}
+
+
+.gender-category-accept label{
     padding: 0 20px 0 5px;
 }
 
@@ -311,9 +315,3 @@ body{
 .form-exit-btn input:hover{
     background: #d75d5d;
     color: white;}
-
-
-
-
-
-
