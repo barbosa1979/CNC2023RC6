@@ -108,3 +108,57 @@ nav ul li a:hover{
 .heading h6:hover{
     transform:translateY(-10px);
     }
+@media only screen and (max-width: 767px) {
+    .container{
+    padding: 15px 30px 0 30px; 
+    }
+        
+    .container .logo{
+    padding: 1px 1px;
+    width:50%;
+    }
+
+    .container .logo a{
+    font-size: 13px;   
+    letter-spacing: 1px;    
+    }
+
+    .heading p{
+    letter-spacing:1px;
+    font-size: 18PX;
+    }
+
+    .heading h2{
+    font-size: 35px;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+    }
+
+    .heading h6{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    width:35%;
+    }
+         
+    .container .nav .Items li a {
+    opacity: 0;
+    }
+
+    .icon{
+    margin-right: 30px;
+    width: 7%;
+    margin-top: -45px;
+    opacity: 1;
+    }
+
+    .icon_menu{
+    width:0px;
+    cursor:pointer;
+    margin-left:0px;
+    }
+
+    }
+
+
+
+
