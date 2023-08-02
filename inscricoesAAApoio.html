@@ -10,7 +10,7 @@
   <body>
     <div class="container">
 
-      <h1 class="form-title">INSCRIÇÃO PARA ALOJAMENTO E ALIMENTAÇÃO PARA CAVALEIROS</h1>
+      <h1 class="form-title">ALOJAMENTO E ALIMENTAÇÃO PARA ELEMENTOS DE APOIO</h1>
 
         <form action="https://formsubmit.co/6f08abfadbd3224beed76fdc3620fbd9" method="POST">
             <input type="hidden" name="_template" value="table">
@@ -22,52 +22,70 @@
                
 
                 <div class="user-input-box">
-                    <label for="NimCavaleiro">NIM do Cavaleiro</label>
+                    <label for="NimCavaleiroqueapoiam">NIM do Cavaleiro que apoia</label>
                     <input type="text"
-                           id="NimCavaleiro"
-                           name="NimCavaleiro"
-                           placeholder="Insira o NIM do cavaleiro (CC se for civil)"
+                           id="NimCavaleiroqueapoiam"
+                           name="NimCavaleiroqueapoiam"
+                           placeholder="Insira o NIM do cavaleiro que apoia (CC se for civil)"
                            required />
                 </div>
 
                 <div class="user-input-box">
-                    <label for="PostoCavaleiro">Posto do Cavaleiro</label>
+                    <label for="NomeCavaleiroqueapoia">Nome completo do Cavaleiro que apoia </label>
+                    <input type="text"
+                           id="NomeCavaleiroqueapoia"
+                           name="NomeCavaleiroqueapoia"
+                           placeholder="Insira o nome do cavaleiro que apoia"
+                           required />
+                </div>
+
+                <div class="user-input-box">
+                    <label for="NimElemApoio">NIM (ou CC) do elemento de apoio</label>
+                    <input type="text"
+                           id="NimElemApoio"
+                           name="NimElemApoio"
+                           placeholder="Insira o NIM (ou CC) do elementode apoio"
+                           required />
+                </div>
+
+                <div class="user-input-box">
+                    <label for="NomeElemApoio">Nome completo do elemento de apoio</label>
+                    <input type="text"
+                           id="NomeElemApoio"
+                           name="NomeElemApoio"
+                           placeholder="Insira o nome completo do elemento de apoio"
+                           required />
+                </div>
+
+                <div class="user-input-box">
+                    <label for="PostoElmApoio">Posto do elemento de apoio</label>
                     <select type="text"
-                            id="PostoCavaleiro"
-                            name="PostoCavaleiro"
+                            id="PostoElmApoio"
+                            name="PostoElmApoio"
                             required>
-                        <option value="" disabled selected hidden>Insira o posto</option>
+                        <option value="" disabled selected hidden>Insira o posto do elemento de apoio</option>
                         <option value="Sargento-Mor">Sargento-Mor</option>
                         <option value="Sargento-Chefe">Sargento-Chefe</option>
                         <option value="Sargento-Ajudante">Sargento-Ajudante</option>
                         <option value="Primeiro-Sargento">Primeiro-Sargento</option>
                     </select>
                 </div>
-
+                                        
                 <div class="user-input-box">
-                    <label for="NomeCavaleiro">Nome completo do Cavaleiro</label>
-                    <input type="text"
-                           id="NomeCavaleiro"
-                           name="NomeCavaleiro"
-                           placeholder="Insira o nome completo do cavaleiro"
-                           required />
-                </div>
-
-                <div class="user-input-box">
-                    <label for="email">E-mail</label>
+                    <label for="elemApoioEmail">E-mail do elemento de apoio</label>
                     <input type="email"
-                           id="email"
-                           name="email"
-                           placeholder="Insira o email de contacto"
+                           id="elemApoioEmail"
+                           name="elemApoioEmail"
+                           placeholder="Insira o email do elemento de apoio"
                            required />
                 </div>
 
                 <div class="user-input-box">
-                    <label for="Telemovel">Número de Telémovel</label>
+                    <label for="elemApoioTelemovel">Número de Telémovel do elemento de apoio</label>
                     <input type="text"
-                           id="Telemovel"
-                           name="Telemovel"
-                           placeholder="Insira o numero de telemovel"
+                           id="elemApoioTelemovel"
+                           name="elemApoioTelemovel"
+                           placeholder="Insira o numero de telemovel do elemento de apoio"
                            required />
                 </div>
 
