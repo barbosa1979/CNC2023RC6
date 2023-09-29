@@ -14,7 +14,7 @@
 
         <form action="https://formsubmit.co/barbosa.lms@gmail.com" method="POST">
             <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_cc" value="rc6.esi@exercito.pt">
+            <input type="hidden" name="_cc" value="rc6.sois@exercito.pt,rc6.esi@exercito.pt">
             <input type="hidden" name="_next" value="https://barbosa1979.github.io/CNC2023RC6/AACAVsucesso.html">
 
             <div class="main-user-info">
@@ -72,6 +72,17 @@
                 </div>
 
                 <div class="user-input-box">
+                    <label for="Arma">Arma ou Serviço</label>
+                    <input type="text"
+                           id="Arma"
+                           name="Arma"
+                           placeholder="Insira a Arma ou Serviço"
+                           required />
+                </div>
+
+
+
+                <div class="user-input-box">
                     <label for="NomeCavaleiro">Nome completo do Cavaleiro</label>
                     <input type="text"
                            id="NomeCavaleiro"
@@ -113,21 +124,16 @@
                         <option value="Outro">Outro</option>
                     </select>
                 </div>
-
-                <div class="user-input-box">                    
+                                
+                <div class="user-input-box">
                     <label for="Ramo">Ramo ou Orgão</label>
-                    <select type="text"
-                            id="Ramo"
-                            name="Ramo"
-                            required>
-                        <option value="" disabled selected hidden>Insira o Ramo ou Orgão</option>
-                        <option value="ExercitoPortugues">Exército Português</option>
-                        <option value="GNR">Guarda Nacional Republicana</option>
-                        <option value="FEP">Federação Equestre Portuguesa</option>
-                        <option value="Outro">Outro</option>
-                    </select>
+                    <input type="text"
+                           id="Ramo"
+                           name="Ramo"
+                           placeholder="Insira o Ramo ou Orgão"
+                           required />
                 </div>
-
+                
                 <div class="user-input-box">                    
                     <label for="UEO">Unidade ou Establecimento</label>
                     <select type="text"
@@ -159,7 +165,7 @@
                            required/>
                 </div>
 
-                <div class="user-input-box">                   
+                <!--<div class="user-input-box">                   
                     <label for="NacinalidadeCavalo">Nacionalidade do Cavalo</label>
                     <select type="text"
                             id="NacinalidadeCavalo"
@@ -172,7 +178,7 @@
                         <option value="Reino Unido">Reino Unido</option>
                         <option value="Outro">Outro</option>
                     </select>
-                </div>
+                </div>-->
             </div>
 
             <div class="gender-details-box">

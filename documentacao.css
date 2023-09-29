@@ -127,7 +127,7 @@ nav ul li a:hover{
 @media only screen and (max-width: 600px){
 
 .navbar{   
-    width: 100%;
+    width: 95%;
     height: 90vh;
     padding-left:5%;
     padding-right:5%;
@@ -185,3 +185,25 @@ nav ul li a:hover{
 
 .flex-box:hover {
 	scale: 1.1;}
+
+
+.heading{   
+    text-align: center;
+    align-items: center;
+    width: 95%;
+    }
+
+.heading p{
+    color: #b8b8b8;
+    letter-spacing:2px;
+    font-size: 0.5em;
+    padding-bottom: 1px
+    }
+
+.heading h2{
+    color: #fff;
+    font-size: 22px;
+    word-spacing: 7px;
+    letter-spacing:10px;
+    text-transform: uppercase;
+    }
